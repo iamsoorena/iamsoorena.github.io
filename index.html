@@ -1,1 +1,187 @@
-"Hello World" 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sag</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap rtl  -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-rtl.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+<div class="container">
+    <div class="page-header">
+        <h1>سلام من سورنا سلیمانی هستم</h1>
+    </div>
+    <div class="row">
+        <div class="col-lg-6">
+            <img id="b" src="img/54.png" alt="salam" style="opacity: 100">
+        </div>
+        <div class="col-lg-6">
+            <h2>هومر سیمسون</h2>
+            <p class="text-justify">هومر سیمپسون (به انگلیسی: Homer Simpson) شخصیتی کارتونی در سریال سیمپسونها است. او
+                برای نخستین بار در برنامه تریسی اولمن در کنار اعضای خانواده سیمپسون ظاهر شد. دن کستلانتا صداپیشه این
+                شخصیت می‌باشد.در بخش های دوبله شده ی این سریال {محمدامین صادقپور} صداپیشگی این شخصیت را بر عهده گرفته
+                است.[۱]
+            </p>
+            <p id="ajaxget"></p>
+            <a class="btn btn-success btn-block pull-down" onclick='toggle("#b")'>نشان بده</a>
+        </div>
+        <div class="clearfix visible-lg"></div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <h3 class="panel-heading">این بخش توضیحات اضافه است</h3>
+                    <blockquote class="blockquote col-lg-6">
+                        <p>یک روز خوب برای او روزی بود که زنده نباشد.</p>
+                        <footer>یک فرد
+                            <cite title="Source Title">عزیز</cite>
+                        </footer>
+                        <small>یک فرد
+                            <cite title="Source Title">خیلی عزیز</cite>
+                        </small>
+                    </blockquote>
+                    <div class="col-lg-6" id="accordion">
+                        <div class="panel panel-info">
+                            <div class="panel-heading" data-toggle="collapse" data-parent="#accordion"
+                                 data-target="#collapseOne">
+                                <h4 class="panel-title accordion-toggle">
+                                    مورد اول
+                                </h4>
+                            </div>
+                            <div id="collapseOne" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    شخصیت هومر در برخورد اول به راحتی با سه جمله تنبل، احمق و عصبی خلاصه می‌شود او
+                                    همچنین معتاد به الکل است. او به راحتی از دست پسرش بارت عصبانی می‌شود و از ند فلاندرز
+                                    که همسایه خانواده سیمپسونهاست متنفر است. در باطن هومر به خانواده‌اش اهمیت بسیار
+                                    می‌دهد و عاشق تک تک اعضا خانواده‌اش است. پاتوق او شراب فروشی مو است که با دوستان
+                                    صمیمی اش لنی، کارل و بارنی به خوردن آبجو مشغول می‌شود.
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-info">
+                            <div class="panel-heading" data-toggle="collapse" data-parent="#accordion"
+                                 data-target="#collapseTwo">
+                                <h4 class="panel-title accordion-toggle">
+                                    مورد دوم
+                                </h4>
+                            </div>
+                            <div id="collapseTwo" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    او پدر بارت، لیزا و مگی و شوهر مارج است. او در اپیزود Viva ned flanders با زن دیگری
+                                    به نام امبر در حین مستی ازدواج می‌کند ولی در اپیزود Brawl in the family با هوشمندی
+                                    مارج امبر از اسپرینگفیلد فرار می‌کند.
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-info">
+                            <div class="panel-heading" data-toggle="collapse" data-parent="#accordion"
+                                 data-target="#collapseThree">
+                                <h4 class="panel-title accordion-toggle">
+                                    مورد سوم
+                                </h4>
+                            </div>
+                            <div id="collapseThree" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    هومر استعداد زیادی در موسیقی به خصوص گیتار و پیانو دارد او در گروه موسیقی‌های متعددی
+                                    فعالیت داشته و یکبار جایزه گرمی را برده‌است. فراگیری سریع زبان نیز از دیگر خصوصیات
+                                    اوست. او همچنین به عنوان یک قهرمان در اپیزود simple simpson ظاهر شد که با خلافکاران
+                                    مبارزه می‌کرد. یکی از خلافکاران برای مثال شخصی بود که مدل چیدمان لیزا را در جشنواره
+                                    سفره چینی مسخره کرده بود.
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <div class="col-xs-6">
+                        <p>در فرم روبرو تمامی موارد را پر کنید سپس با استفاده از اطلاعات به دست آماده ما تلاش خود را
+                            میکنیم که به همبستگی بیشتر سیستم تحت نظر دست بیابیم. متشکر از توجه و نگاه زیبای شما به این
+                            مساله ی بغرنج از آن رو که هرکسی قابلیت خواندن این حجم از چرت و پرت را به صورت یکجا و به دو
+                            از هرگونه قضاوت غلط ندارد.</p>
+                    </div>
+                    <div class="col-xs-6">
+                        <form class="form-horizontal">
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label" for="inputName">نام</label>
+                                <div class="col-sm-10">
+                                    <input class="form-control" type="text" id="inputName" placeholder="محمد">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label" for="inputEmail">ایمیل</label>
+                                <div class="col-sm-10 ">
+                                    <input class="form-control text-left english" type="email" id="inputEmail"
+                                           placeholder="...@gmail.com">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label" for="selectSite">سایت</label>
+                                <div class="col-sm-10">
+                                    <select class="form-control" id="selectSite">
+                                        <option>انتخاب ها ...</option>
+                                        <option class="english">lynda.com</option>
+                                        <option class="english">raybo.org</option>
+                                        <option class="english">iviewsource.com</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-sm-10 col-sm-offset-2">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input id="inputAddList" type="checkbox"> من را به لیست دریافت کنندگان ایمیل
+                                            اضافه کنید </label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label" for="inputComments">نظرات</label>
+                                <div class="col-sm-10">
+                                    <textarea class="form-control" id="inputComments"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-sm-10 col-sm-offset-2">
+                                    <input type="submit" class="btn btn-primary pull-left" value="بفرست">
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- Bootstrap JS -->
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Custom JS for this template -->
+    <script type="application/javascript" src="js/main.js"></script>
+</body>
+
+</html>

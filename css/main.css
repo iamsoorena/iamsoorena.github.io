@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "droid";
+    src: url("../fonts/DroidNaskh-Regular.woff");
+}
+
+.english{
+    direction: ltr;
+}
+.vertparent {
+    display: table;
+    table-layout: fixed;
+}
+
+.vertchild {
+    display:table-cell;
+    vertical-align:middle;
+    /*text-align:center;*/
+    float: none
+}
+
+.panel-heading {
+    cursor: pointer;
+}
+
+/* CSS Method for adding Font Awesome Chevron Icons */
+.accordion-toggle:after {
+    /* symbol for "opening" panels */
+    font-family:'FontAwesome',serif;
+    content:"\f077";
+    float: left;
+    color: inherit;
+}
+.panel-heading.collapsed .accordion-toggle:after {
+    /* symbol for "collapsed" panels */
+    content:"\f078";
+}
+/*.row{*/
+    /*margin-bottom: 20px;*/
+/*}*/
+tspan , .highcharts-legend-item{
+	font-family: droid;
+	letter-spacing: normal;
+	direction: ltr;
+}
+
